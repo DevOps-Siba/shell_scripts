@@ -5,10 +5,10 @@
 
 <<note
 
-this script for install $
+this script will be install any package passed as argument ./install_package.sh <arg>:
 note
 
-echo "*******installing $*********"
+echo "*******installing $ *********"
 
 
 sudo apt-get update
