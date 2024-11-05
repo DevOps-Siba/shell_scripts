@@ -5,18 +5,15 @@
 
 <<note
 
-this script will be install any package passed as argument ./install_package.sh <arg>:
+this script will be install any package passed as argument ./install_package.sh <arg>
 note
 
-echo "*******installing $ *********"
+echo "*******installing $1 *********"
 
 
 sudo apt-get update
-sudo apt-get install $ -y
+sudo apt-get install $1 -y
 
 
-sudo systemctl start $
-sudo systemctl enable $
-
-
-echo"******installed $******"
+sudo systemctl start $1
+sudo systemctl enable $1
